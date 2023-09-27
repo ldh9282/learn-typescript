@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var bools = [];
+bools.push(true);
+bools.push(false);
+var coords = [];
+coords.push({ x: 23, y: 8 });
+coords.push({ x: 23, y: 9 });
+var coordArr = [];
+coordArr.push({ x: 23, y: 8 });
+coordArr.push({ x: 23, y: 9 });
+console.log(bools);
+console.log(coords);
+console.log(coordArr);
