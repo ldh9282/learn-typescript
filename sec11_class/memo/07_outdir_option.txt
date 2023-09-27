@@ -1,0 +1,5 @@
+# [outdir option]
+# outdir means output directory 
+# specify an ouput directory with the compiled *.js file
+# dist means distribution that is not rule but common convention.
+"oudtDir": "./dist"
