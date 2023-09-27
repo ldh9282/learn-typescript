@@ -1,0 +1,8 @@
+# create react app as shopping-app using typescript
+npx create-react-app shopping-app --template typescript
+
+# go to shopping-app folder
+cd shopping-app
+
+# run server
+npm start
