@@ -1,0 +1,11 @@
+# basic syntax
+let myVar: type = value;
+
+# declare a string value
+let str1: string = "abcd";
+
+# cannot reassign a different type
+str1 = 100; (x)
+
+# can reassign a same type
+str1 = "qwer"; (o)
