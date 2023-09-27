@@ -1,0 +1,4 @@
+webpack is the 3rd party library with html, css, javascript
+to build a http request and give front-end resources like images and fonts
+
+webpack is a static module bundler for modern javascript application

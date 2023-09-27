@@ -1,0 +1,36 @@
+# check the version of typescript and ts-loader
+npm typescript --v
+npm ts-loader --v
+
+# when typescript i not be already installed globally
+# install typescript
+npm install typescript
+
+# even if ts-loader is already installed
+# ts-loader must be installed locally to build a project
+npm install ts-loader
+
+# install lodash
+
+npm install lodash
+npm install @types/lodash
+
+# install webpack
+npm install webpack
+npm install @types/webpack
+npm install webpack-cli
+
+# create a webpack config file
+webpack.config.js
+
+# in package.json
+# build script is webpack
+"scripts": {
+    "start": "lite-server",
+    "build": "webpack"
+  },
+
+# build a project
+npm run build
+
+# you can see a dist/bundle.js

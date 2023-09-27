@@ -1,0 +1,4 @@
+# after .ts file compiled into .js file
+# execute .js file with node command
+
+node path/file.js
