@@ -1,0 +1,34 @@
+# create src folder, dist folder
+
+# create tsconfig.json
+tsc --init
+
+# set the input directory path to be compiled
+"include": ["src"]
+
+# set the output directory path to be distributed
+"outDir": "./dist",  
+
+# create index.ts and some test code
+
+# compile
+tsc
+
+# create index.html
+
+# run the watch mode with auto compile
+tsc --watch
+
+# create package.json
+npm init -y
+
+# install lite-server
+npm install lite-server
+
+# in package.json
+"scripts": {
+    "start": "lite-server"
+  },
+
+# run on server to auto-refresh index.html
+npm start

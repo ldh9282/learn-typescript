@@ -1,0 +1,14 @@
+# [target option]
+# set the javascript version to be used in compile
+# you can search the javscript versions with "tsconfig target"
+"target": "es2016"
+
+# in es2016 and es2022 compile, 
+# change "const" to "const"
+"target": "es2022"
+
+# but the default is set to ES3.
+# change "const" to "var".
+
+# from es2015 ~ esnext
+# change "const" to "const"
