@@ -1,0 +1,5 @@
+# start compilation in watch mode
+# watch the compile errors on file.ts while changing
+tsc --watch file.ts
+    or
+tsc -w file.ts    

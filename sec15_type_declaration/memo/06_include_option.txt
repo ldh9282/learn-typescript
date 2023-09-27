@@ -1,0 +1,17 @@
+# [files option]
+# you can manually select the wanted files 
+# to compile in tsconfig.json
+# you can exclude the files to be not compiled
+"files": ["file1.ts", "file2.ts"]
+
+
+# [include option]
+# you can select the folder path to be compiled
+"include":  ["src"]
+
+# [exclude option]
+# you can selct the file path to be not compiled
+"exclude": ["src/03_to_be_not_compiled.ts"]
+
+
+# the excluded files are also excluded on the watch mode.

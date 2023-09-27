@@ -1,0 +1,18 @@
+# [strict option]
+# type checking with all option
+# true is default value on typescript
+"strict": true,
+
+
+# [noImplicitAny option]
+# When 'noImplicitAny' is set to false even if 'strict' is set to true, 
+# there is no error checking at implied any type
+"noImplicitAny": false,
+
+# [strictNullChecks option]
+# When 'strictNullChecks' is set to false even if 'strict' is set to true, 
+# there is no error checking that string is null or undefined
+"strictNullChecks": false,
+
+# When 'strict' is set to true, if other options are set to false, they can be overridden.
+

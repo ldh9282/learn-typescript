@@ -1,0 +1,13 @@
+# install axios
+npm install axios
+
+# import axios
+import axios from "axios";
+
+# you can see node_modules/axios and
+# in node_modules/axios/package.json
+"types": "index.d.ts",
+
+# you can see d.ts file in node_modules/axios
+# *.d.ts file means definiton file about 3rd pary library
+node_modules/axios/index.d.ts
