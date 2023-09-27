@@ -1,0 +1,4 @@
+# create typescript compiler's configuration file 
+# to set the compile option
+# after do that, "tsconfig.json" will be created
+tsc --init
