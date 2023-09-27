@@ -1,1 +1,1 @@
-# 05_mastering_typescript
+learn typescript
