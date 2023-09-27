@@ -1,0 +1,11 @@
+# type command to compile .ts into .js in cmd
+
+tsc path/file.ts
+
+# after do that, file.js will be created
+
+path/file.js
+
+# you may see an error as
+# "Cannot redeclare block scoped variable"
+# a simple soultion: export {} 

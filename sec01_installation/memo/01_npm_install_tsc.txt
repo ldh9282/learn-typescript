@@ -1,0 +1,14 @@
+# get version of node
+npm -v 
+    or 
+npm --version
+
+# install typescript in global
+npm install -g typescript
+    or
+npm install -g tsc    
+
+# get version of typescript
+typescript -v (x)
+    but
+tsc -v (o) 
