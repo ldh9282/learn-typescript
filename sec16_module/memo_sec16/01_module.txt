@@ -1,0 +1,23 @@
+# you might have an error with typescript module
+Uncaught ReferenceError: exports is not defined
+
+# you can change a compilation with module system
+# in tsconfig.json
+"module": "ES2022"
+
+# before change
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const _02_export_utils_1 = require("./02_export_utils");
+
+# after change
+import { add2, sample2 } from "./02_export_utils.js";
+
+# you might have another error with typescript module
+Uncaught SyntaxError: Cannot use import statement outside a module
+
+# in the case, change
+<script src="dist/02_import_module.js"></script>
+# as 
+<script type="module" src="dist/02_import_module.js"></script>
+

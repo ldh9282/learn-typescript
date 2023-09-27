@@ -1,0 +1,21 @@
+# install lodash
+npm install lodash
+
+# import lodash
+import _ from "lodash"
+
+# Some error ouccurred
+# Could not find a declaration file for module 'lodash'. 
+
+# you see that *.d.ts file does not exist and
+# in node_modules/lodash/package.json
+# "types": "index.d.ts"
+# also does not exist
+
+# in this case, you can install @types library separately
+# for getting type declartion
+npm install --save-dev @types/lodash
+
+# you can search the 3rd library 
+# and also @types library
+https://yarnpkg.com/

@@ -1,0 +1,7 @@
+# compile all *.ts files to *.js files on current folder and that sub folder
+tsc
+
+# watch mode on current folder and that sub folder
+tsc --watch
+    or
+tsc -w
